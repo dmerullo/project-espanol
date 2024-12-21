@@ -24,4 +24,6 @@ In creating this project, I came across a [GitHub repository](https://github.com
 - Incorporation of additional grammatical features for computational analysis
 - Addition of more poems and authors
 
-If you would like to support this and future projects, please [send a donation](buymeacoffee.com/dmerullo)!
+# Community
+
+If you would like to support this and future projects, please [send a donation](https://buymeacoffee.com/dmerullo)!
