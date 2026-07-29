@@ -359,12 +359,23 @@ select {
   color: var(--parchment-dim);
   font-family: var(--mono);
   font-size: 0.72rem;
+  text-align: center;
 }
 
+.dev-line {
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  color: var(--parchment-dim);
+  text-align: center;
+  margin: 4px 0 28px;
+}
+
+.dev-line a,
 .site-footer a {
   color: var(--gold-bright);
 }
 
+.dev-line .divider,
 .site-footer .divider {
   color: var(--line);
   margin: 0 10px;
