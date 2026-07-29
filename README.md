@@ -1,6 +1,6 @@
 # Description
 
-**Project ESPAÑOL**: **E**xploration Of **S**panish-language **P**oetry **A**nd **N**uances **O**f **L**anguage
+**Project ESPAÑOL**: **E**xploring **S**panish-language **P**oetry **A**nd **N**uances **O**f **L**anguage
 
 by [Devin Merullo](https://dmerullo.github.io/)
 
@@ -14,9 +14,9 @@ In creating this project (2024), I came across a [GitHub repository](https://git
 
 # Release History
 
-- 2026-07-28 Version 1.0: Major updates to the UI. 
+- 2026-07-28 Version 1.0: Major updates to the UI, and modified the README. 
 - 2024-12-21 Version 0.0: Minimum viable product! 
 
-# Community
+# Support
 
 If you would like to support this and future projects, please [send a donation](https://buymeacoffee.com/dmerullo).
