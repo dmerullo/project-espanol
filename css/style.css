@@ -45,15 +45,6 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
   border-bottom: 1px solid var(--line);
 }
 
-.eyebrow {
-  font-family: var(--mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--gold);
-  margin: 0 0 12px;
-}
-
 .site-header h1 {
   font-family: var(--display);
   font-weight: 600;

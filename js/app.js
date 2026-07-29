@@ -47,6 +47,7 @@
     detail: document.getElementById("detail-panel"),
     wordReadout: document.getElementById("wordcount-readout"),
     yearsReadout: document.getElementById("years-readout"),
+    chartHint: document.getElementById("chart-hint"),
   };
 
   // ── Dual-range slider (two overlapping native range inputs) ─────────
@@ -299,12 +300,13 @@
   }
 
   async function init() {
-    els.chart.innerHTML = `<p class="chart-hint">Loading corpus…</p>`;
+    els.chartHint.textContent = "Loading corpus…";
     try {
       const res = await fetch("data/metadata.json");
       ALL_DATA = await res.json();
     } catch (err) {
-      els.chart.innerHTML = `<p class="poem-error">Couldn't load data/metadata.json — make sure you've run export_data.py and committed the data/ folder.</p>`;
+      els.chartHint.textContent =
+        "Couldn't load data/metadata.json — make sure you've run export_data.py and committed the data/ folder.";
       return;
     }
 
@@ -312,6 +314,7 @@
     attachControlListeners();
     renderChart();
     attachClickHandler();
+    els.chartHint.textContent = "Select any point to read the poem below.";
   }
 
   document.addEventListener("DOMContentLoaded", init);
