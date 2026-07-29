@@ -77,17 +77,6 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
   font-size: 0.92rem;
 }
 
-.header-links {
-  margin-top: 24px;
-  font-family: var(--mono);
-  font-size: 0.82rem;
-}
-
-.header-links .divider {
-  color: var(--line);
-  margin: 0 10px;
-}
-
 /* ── Layout ─────────────────────────────────────────── */
 
 main {
@@ -370,6 +359,15 @@ select {
   color: var(--parchment-dim);
   font-family: var(--mono);
   font-size: 0.72rem;
+}
+
+.site-footer a {
+  color: var(--gold-bright);
+}
+
+.site-footer .divider {
+  color: var(--line);
+  margin: 0 10px;
 }
 
 /* ── Responsive ─────────────────────────────────────── */
