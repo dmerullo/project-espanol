@@ -41,7 +41,7 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .site-header {
   max-width: 780px;
   margin: 0 auto;
-  padding: 64px 24px 40px;
+  padding: 64px 24px 24px;
   border-bottom: 1px solid var(--line);
 }
 
@@ -367,7 +367,7 @@ select {
   font-size: 0.82rem;
   color: var(--parchment-dim);
   text-align: center;
-  margin: 4px 0 28px;
+  margin: 16px 0 0;
 }
 
 .dev-line a,
